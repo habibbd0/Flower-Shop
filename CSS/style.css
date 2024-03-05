@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	transition: .2s linear;
+}
+header {
+	padding: 50px 0;
+	width: 100%;
+	max-height: 95vh;
+	background: #FDEDF1;
+}
+.container {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	align-items: center;
+	gap: 5rem;
+	
+}
+.container .text-contant {
+	width: 100%;
+}
+.container .text-contant h1 {
+	font-size: 50px;
+	font-weight: 900;
+	color: #3f3e3e;
+	line-height: 60px;
+}
+.container .text-contant p {
+	font-size: 16px;
+	color: #696969;
+	margin: 20px 0;
+}
+.container .text-contant button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	background: #E55473;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+}
+.container .text-img {
+	width: 100%;
+}
+.container .text-img img {
+	width: 450px;
+	height: 552px;
+}
+
+/* <!-- ===========Featured flowers part design ======== --> */
+.featured-container {
+	width: 80%;
+	padding: 100px 0;
+	margin: auto;
+}
+.featured-container .headding {
+	text-align: center;
+	
+}
+.featured-container .headding h1 {
+	font-size: 45px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #272727;
+}
+.featured-container .headding p {
+	text-transform: capitalize;
+	color: #888787;
+	font-size: 18px;
+}
+.featured-container .image-item {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 1rem;
+	margin-top: 50px;
+}
+.featured-container .image-item .first-item .bg-color {
+	width: 100%;
+	height: 400px;
+	background: #F2DEE7;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+.featured-container .image-item .first-item .bg-color img {
+	width: 250px;
+	height: 400px;
+	margin: auto;
+	text-align: center;
+	display:block;
+	padding-top: 50px;
+	overflow: hidden;
+}
+.featured-container .image-item .second-item .bg-color {
+	width: 100%;
+	height: 400px;
+	background: #F2DEE7;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+.featured-container .image-item .second-item .bg-color img {
+	width: 200px;
+	height: 350px;
+	margin: auto;
+	text-align: center;
+	display:block;
+	padding-top: 50px;
+	overflow: hidden;
+}
+.featured-container .image-item .third-item .bg-color {
+	width: 100%;
+	height: 400px;
+	background: #F2DEE7;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+.featured-container .image-item .third-item .bg-color img {
+	width: 250px;
+	height: 400px;
+	margin: auto;
+	text-align: center;
+	display:block;
+	padding-top: 50px;
+	overflow: hidden;
+}
+.featured-container .image-item span {
+	text-align: center;
+	padding-top: 10px ;
+	font-size: 20px;
+	display:block;
+	text-decoration: underline;
+	font-weight: 500;
+}
+
+/* <!--=========== service section design ================= --> */
+.service-container {
+	width: 80%;
+	margin: auto;
+	background: #F4F4F4;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	align-items: center;
+	padding: 50px;
+	gap: 2rem;
+}
+.service-container .delivery-item  {
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+.service-container .delivery-item h3 {
+	color: #696969;
+	text-transform: capitalize;
+}
+
+/* <!--======== offer section design ========== --> */
+.offer-section {
+	width: 100%;
+	max-height: 70vh;
+	background: #FEF6F8;
+	margin: 100px 0;
+}
+.offer-section .offer-container {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	align-items: center;
+}
+.offer-section .offer-container .offer-price h1 {
+	font-size: 30px;
+	text-transform: capitalize;
+	color: #272727;
+}
+.offer-section .offer-container .offer-price h1 span {
+	color: #E55473;
+}
+.offer-section .offer-container .offer-price p {
+	font-size: 16px;
+    color: #636262;
+	margin: 15px 0;
+}
+.offer-section .offer-container .offer-price button {
+	padding: 10px 15px;
+	background: #E55473;
+	color: white;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 10px;
+}
+
+/* <!--======== instagram part design =========== --> */
+.instagram-container {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 80px;
+}
+.instagram-container .instagram-header {
+	text-align: center;
+}
+.instagram-container .instagram-header h1 {
+	font-size: 45px;
+	color: #3f3e3e;
+}
+.instagram-container .instagram-header span {
+	font-size: 16px;
+	color: #636262;
+	padding: 30px 0;
+}
+.instagram-container .image-container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+	gap: 1rem;
+	margin-top: 50px;
+
+}
+.instagram-container .image-container .images img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+/* .instagram-container .image-container .images img:hover  {
+	background: red;
+	border-radius: 50px;
+	transition-delay: calc(125);
+	
+} */
+
+/* <!--=============== lalest details part design ================ --> */
+.letest-section {
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.letest-section .latest-info {
+	width: 80%;
+	height: 60vh;
+	margin: auto;
+	background-image: url("../images/Rectangle\ 9.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+.letest-section .latest-info .latest-contant {
+  width: 50%;
+  margin: auto;
+  padding-top: 100px;
+  
+}
+.letest-section .latest-info .latest-contant h1 {
+	font-size: 40px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #272727;
+}
+.letest-section .latest-info .latest-contant p {
+	text-align: center;
+	text-transform: capitalize;
+	color: #6b6a6a;
+	font-size: 18px;
+}
+.letest-section .latest-info .latest-contant form {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 30px;
+}
+.letest-section .latest-info .latest-contant form input {
+	width: 100%;
+	padding: 15px 25px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+.letest-section .latest-info .latest-contant form button {
+	padding: 10px 20px;
+	background: #E55473;
+	color: #FEF6F8;
+	font-weight: 600;
+	border-radius: 10px;
+	font-size: 20px;
+}
