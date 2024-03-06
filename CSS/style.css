@@ -102,7 +102,7 @@ header {
 .featured-container .image-item .second-item .bg-color {
 	width: 100%;
 	height: 400px;
-	background: #F2DEE7;
+	background: #D9F0F1;
 	border-top-left-radius: 50%;
 	border-top-right-radius: 50%;
 }
@@ -118,7 +118,7 @@ header {
 .featured-container .image-item .third-item .bg-color {
 	width: 100%;
 	height: 400px;
-	background: #F2DEE7;
+	background: #E3ECDB;
 	border-top-left-radius: 50%;
 	border-top-right-radius: 50%;
 }
@@ -242,10 +242,11 @@ header {
 	width: 100%;
 	height: auto;
 	margin: auto;
+	padding-bottom: 50px;
 }
 .letest-section .latest-info {
 	width: 80%;
-	height: 60vh;
+	height: 50vh;
 	margin: auto;
 	background-image: url("../images/Rectangle\ 9.png");
 	background-position: center;
@@ -256,14 +257,14 @@ header {
 .letest-section .latest-info .latest-contant {
   width: 50%;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 70px;
   
 }
 .letest-section .latest-info .latest-contant h1 {
 	font-size: 40px;
 	text-align: center;
 	text-transform: capitalize;
-	color: #272727;
+	color: #3f3e3e;
 }
 .letest-section .latest-info .latest-contant p {
 	text-align: center;
@@ -294,4 +295,89 @@ header {
 	font-weight: 600;
 	border-radius: 10px;
 	font-size: 20px;
+}
+
+/* <!--============ blog section part design ========== --> */
+.blog-section {
+	width: 80%;
+	margin: auto;
+	padding: 50px 0;
+}
+.blog-section .blog-description {
+	text-align: center;
+}
+.blog-section .blog-description h1 {
+	font-size: 45px;
+	color: #3f3e3e;
+}
+.blog-section .blog-description h4 {
+	color: #888787;
+	font-size: 18px;
+	font-weight: 400;
+}
+.blog-section .blog-item {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 30px;
+	gap: 1rem;
+	padding: 10px;
+}
+.blog-section .blog-item .first-item .images {
+	width: 350px;
+}
+.blog-section .blog-item .first-item .images img {
+	width: 100%;
+	border-radius: 5px;
+}
+.blog-section .blog-item .first-item .blog-item-contant .date-list {
+	display: flex;
+	gap: 2rem;
+	color: #888787;
+	font-size: 14px;
+}
+.blog-section .blog-item .first-item .blog-item-contant .blog-contant h2 {
+	font-size: 18px;
+	font-weight: 500;
+	margin: 8px 0;
+	color: #3f3e3e;
+}
+.blog-section .blog-item .first-item .blog-item-contant .blog-contant p {
+	font-size: 14px;
+	color: #636262;
+}
+
+/* <!--========== footer section design ========== --> */
+.footer-section {
+	width: 100%;
+	height: 300px;
+	background: #272727;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-section .footer-contant {
+	text-align: center;
+}
+.footer-section .footer-contant h1 {
+	font-size: 45px;
+	color: #FDEDF1;
+	padding-bottom: 10px;
+	font-weight: 00;
+}
+.footer-section .footer-contant h1 span {
+	color: #E55473;
+}
+.footer-section .footer-contant h5 {
+	font-size: 18px;
+	color: #d8d9da;
+	font-weight: 400;
+}
+.footer-section .footer-contant samp {
+	color: #888787;
+	margin-top: 10px;
+	font-size: 16px;
+	text-align: center;
+	display: block;
 }
