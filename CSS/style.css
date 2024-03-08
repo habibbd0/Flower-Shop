@@ -14,7 +14,8 @@
 section {
 	width: 100%;
 	height: auto;
-	background:rgb(29, 29, 29);
+	background:rgb(59, 59, 59);
+	/* border-bottom: rgb(230, 7, 7); */
 }
 nav {
 	width: 80%;
