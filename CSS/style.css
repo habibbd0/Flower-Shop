@@ -15,7 +15,8 @@ section {
 	width: 100%;
 	height: auto;
 	background:rgb(59, 59, 59);
-	/* border-bottom: rgb(230, 7, 7); */
+	
+	
 }
 nav {
 	width: 80%;
@@ -24,12 +25,21 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
+	
+	
 }
 nav .logo a {
 	font-size: 35px;
-	color: #E3ECDB;
+	color: #f0f0f0;
 }
 nav .logo a:hover {
+	color: cyan;
+}
+nav .logo i {
+	font-size: 35px;
+	color: #fff;
+}
+nav .logo i:hover {
 	color: cyan;
 }
 /* nav .logo a::first-letter{
@@ -55,9 +65,10 @@ nav .sing-up button {
 	background: rgb(83, 83, 83);
 	border: none;
 	border-radius: 10px;
+	font-weight: 600;
 }
 nav .sing-up button:hover {
-	background: rgb(202, 199, 199);
+	background: rgb(172, 169, 169);
 	color: cyan;
 }
 header {
@@ -94,10 +105,18 @@ header {
 	padding: 10px 20px;
 	border: none;
 	border-radius: 10px;
-	background: #E55473;
+	background: #d817a8;
 	color: white;
 	font-size: 20px;
 	font-weight: 600;
+	box-shadow: 0px 0px 50px 20px rgb(233, 31, 31);
+	margin-top: 20px;
+	outline: none;
+	cursor: pointer;
+}
+.container .text-contant button:hover {
+	box-shadow: none;
+	color: rgb(37, 37, 37);
 }
 .container .text-img {
 	width: 100%;
@@ -134,6 +153,9 @@ header {
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 1rem;
 	margin-top: 50px;
+}
+.featured-container .image-item span {
+	cursor: pointer;
 }
 .featured-container .image-item .first-item .bg-color {
 	width: 100%;
@@ -242,15 +264,22 @@ header {
 	margin: 15px 0;
 }
 .offer-section .offer-container .offer-price button {
-	padding: 10px 15px;
-	background: #E55473;
-	color: white;
+	padding: 10px 20px;
 	border: none;
-	font-size: 18px;
-	font-weight: 500;
 	border-radius: 10px;
+	background: #d817a8;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	box-shadow: 0px 0px 50px 20px rgb(233, 31, 31);
+	margin-top: 20px;
+	outline: none;
+	cursor: pointer;
 }
-
+.offer-section .offer-container .offer-price button:hover{
+	box-shadow: none;
+	color: rgb(37, 37, 37);
+}
 /* <!--======== instagram part design =========== --> */
 .instagram-container {
 	width: 80%;
