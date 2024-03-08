@@ -7,6 +7,57 @@
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 	transition: .2s linear;
+	text-decoration: none;
+	list-style: none;
+	transition: 1s all ease;
+}
+section {
+	width: 100%;
+	height: auto;
+	background:rgb(29, 29, 29);
+}
+nav {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+nav .logo a {
+	font-size: 35px;
+	color: #E3ECDB;
+}
+nav .logo a:hover {
+	color: cyan;
+}
+/* nav .logo a::first-letter{
+	font-size: 10px;
+	color: red;
+} */
+nav .navbar {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+nav .navbar li a {
+	font-size: 22px;
+	color: white;
+}
+nav .navbar li a:hover {
+	color: cyan;
+}
+nav .sing-up button {
+	padding: 8px 15px;
+	font-size: 20px;
+	color: #E3ECDB;
+	background: rgb(83, 83, 83);
+	border: none;
+	border-radius: 10px;
+}
+nav .sing-up button:hover {
+	background: rgb(202, 199, 199);
+	color: cyan;
 }
 header {
 	padding: 50px 0;
