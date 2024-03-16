@@ -15,8 +15,8 @@ section {
 	width: 100%;
 	height: auto;
 	background:rgb(59, 59, 59);
-	
-	
+	z-index: 9999;
+	position: fixed;
 }
 nav {
 	width: 80%;
@@ -49,6 +49,7 @@ nav .logo i:hover {
 nav .navbar {
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
 	gap: 2rem;
 }
 nav .navbar li a {
@@ -74,8 +75,9 @@ nav .sing-up button:hover {
 header {
 	padding: 50px 0;
 	width: 100%;
-	max-height: 95vh;
+	max-height: 100vh;
 	background: #FDEDF1;
+	
 }
 .container {
 	width: 80%;
@@ -85,10 +87,12 @@ header {
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	align-items: center;
 	gap: 5rem;
-	
+	margin-top: 40px;
 }
+
 .container .text-contant {
 	width: 100%;
+
 }
 .container .text-contant h1 {
 	font-size: 50px;
@@ -123,7 +127,7 @@ header {
 }
 .container .text-img img {
 	width: 450px;
-	height: 552px;
+	height: 545px;
 }
 
 /* <!-- ===========Featured flowers part design ======== --> */
@@ -301,7 +305,7 @@ header {
 .instagram-container .image-container {
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
 	gap: 1rem;
 	margin-top: 50px;
 
